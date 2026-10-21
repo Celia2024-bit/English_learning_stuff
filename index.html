@@ -60,7 +60,7 @@ footer{color:var(--muted);font-size:.82rem;padding:28px 0 0}
 </div></header>
 <main>
 <div class="toolbar">
-<div class="search-row"><input id="search" type="search" placeholder="搜索中文意思或英文表达，例如：尝试、归根结底、stepping stone" autocomplete="off"><button id="clear" type="button">清除</button></div>
+<div class="search-row"><input id="search" type="search" placeholder="搜索中文意思或英文表达，例如：尝试、归根结底、suck" autocomplete="off"><button id="clear" type="button">清除</button></div>
 <div class="filters" id="filters">
 <button class="active" data-filter="all">全部</button>
 <button data-filter="口语">口语</button>
@@ -129,13 +129,14 @@ footer{color:var(--muted);font-size:.82rem;padding:28px 0 0}
 <tr data-search="和以往任何时候一样 as … as it has ever been"><td>和以往任何时候一样</td><td><code>as … as it has ever been</code><button class="copy" type="button" data-copy="as … as it has ever been" aria-label="复制表达">复制</button></td></tr>
 <tr data-search="早就该做某事了 it’s high time + 主语 + 过去式"><td>早就该做某事了</td><td><code>It’s high time + 主语 + 过去式</code><button class="copy" type="button" data-copy="It’s high time + 主语 + 过去式" aria-label="复制表达">复制</button></td></tr>
 <tr data-search="开始流行/逐渐被接受 catch on"><td>开始流行/逐渐被接受</td><td><code>catch on</code><button class="copy" type="button" data-copy="catch on" aria-label="复制表达">复制</button></td></tr>
+<tr data-search="太差劲/讨厌 suck"><td>太差劲/讨厌</td><td><code>suck</code><button class="copy" type="button" data-copy="suck" aria-label="复制表达">复制</button></td></tr>
 <tr data-search="世上所有/无所不包 under the sun"><td>世上所有/无所不包</td><td><code>under the sun</code><button class="copy" type="button" data-copy="under the sun" aria-label="复制表达">复制</button></td></tr>
 </tbody></table></div>
 </section>
 <div class="empty" id="empty">没有找到匹配的表达。可以试试更短的中文关键词或英文关键词。</div>
 
-<!-- 各个详细分类板块（已按最新顺序调整并包含 08 的句式、09 的流行归纳、13-15 的新增模块） -->
-<section class="section" data-section="01 · 尝试、探索与熟悉"><h2>01 · 尝试、探索与熟悉</h2><div class="cards">
+<!-- 各个详细分类板块（已将 suck 与 under the sun 完美并入第 12 部分“其他常用补充”） -->
+<section class="section" data-section="01 · 尝试、探索与熟悉"><h2>01 · 尝试, 探索与熟悉</h2><div class="cards">
         <article class="card" data-search="have a go (at sth) 试一试，尤其是动手做某件事。 口语 / 通用 尝试一件具体的事 i&#x27;ll have a go at fixing it myself. 我自己试着修一下。 why don&#x27;t you have a go at it? 你为什么不试试看？">
           <div class="card-top"><h3>have a go (at sth)</h3><span class="tag">口语 / 通用</span></div>
           <p class="meaning">试一试，尤其是动手做某件事。</p>
@@ -364,7 +365,7 @@ footer{color:var(--muted);font-size:.82rem;padding:28px 0 0}
           <div class="card-top"><h3>What A is to X, B is to Y.</h3><span class="tag">修辞句式 / 偏正式</span></div>
           <p class="meaning">A 对 X 的意义，就像 B 对 Y 的意义一样。</p>
           <p class="use"><strong>快速定位：</strong>类比两个事物</p>
-          <div class="examples"><div class="example"><div class="en">What exercise is to physical health, reading is to mental growth.</div><div class="zh">锻炼之之于身体健康，就像阅读之于心智成长。</div></div><div class="example"><div class="en">What practice is to speaking, feedback is to writing.</div><div class="zh">练习之于口语，就像反馈之于写作。</div></div></div>
+          <div class="examples"><div class="example"><div class="en">What exercise is to physical health, reading is to mental growth.</div><div class="zh">锻炼之于身体健康，就像阅读之于心智成长。</div></div><div class="example"><div class="en">What practice is to speaking, feedback is to writing.</div><div class="zh">练习之于口语，就像反馈之于写作。</div></div></div>
         </article>
         <article class="card" data-search="the highest point of / the pinnacle of / the highlight of 分别偏向实际最高点、成就巅峰、某段经历中最精彩的部分。 通用 / 语义对比 表达最高点或亮点 this is the highest point of the mountain. 这是这座山的最高点。 winning the award was the pinnacle of her career. 获奖是她职业生涯的巅峰。 the concert was the highlight of my trip. 那场音乐会是我这趟旅行中最精彩的部分。">
           <div class="card-top"><h3>the highest point of / the pinnacle of / the highlight of</h3><span class="tag">通用 / 语义对比</span></div>
@@ -487,6 +488,18 @@ footer{color:var(--muted);font-size:.82rem;padding:28px 0 0}
           <p class="meaning">常用在 run around like a headless chicken 中，形容忙乱、缺乏计划。</p>
           <p class="use"><strong>快速定位：</strong>忙乱</p>
           <div class="examples"><div class="example"><div class="en">I&#x27;ve been running around like a headless chicken all morning.</div><div class="zh">我整个早上都忙得团团转。</div></div></div>
+        </article>
+        <article class="card" data-search="suck 太差劲、讨厌、令人失望（常用于口语中表达不满）。 口语 / 强烈 太差劲/糟糕 it really sucks that we missed the train. 我们没赶上火车，真是太糟糕了。 this situation totally sucks. 这种局面真是糟糕透顶。">
+          <div class="card-top"><h3>suck</h3><span class="tag">口语 / 强烈</span></div>
+          <p class="meaning">太差劲、讨厌、令人失望（常用于口语中表达不满）。</p>
+          <p class="use"><strong>快速定位：</strong>太差劲/糟糕</p>
+          <div class="examples"><div class="example"><div class="en">It really sucks that we missed the train.</div><div class="zh">我们没赶上火车，真是太糟糕了。</div></div><div class="example"><div class="en">This situation totally sucks.</div><div class="zh">这种局面真是糟糕透顶。</div></div></div>
+        </article>
+        <article class="card" data-search="under the sun 常见于 everything / anything / nothing + under the sun，意思是“世上所有……”，带有无所不包的修辞感。 口语 / 夸张 世上所有 we talked about everything under the sun. 我们什么话题都聊了。 you can find almost anything under the sun online. 你几乎可以在网上找到任何东西。">
+          <div class="card-top"><h3>under the sun</h3><span class="tag">口语 / 夸张</span></div>
+          <p class="meaning">常见于 everything / anything / nothing + under the sun，意思是“世上所有……”，带有无所不包的修辞感。</p>
+          <p class="use"><strong>快速定位：</strong>世上所有/无所不包</p>
+          <div class="examples"><div class="example"><div class="en">We talked about everything under the sun.</div><div class="zh">我们什么话题都聊了。</div></div><div class="example"><div class="en">You can find almost anything under the sun online.</div><div class="zh">你几乎可以在网上找到任何东西。</div></div></div>
         </article></div></section>
 
 <section class="section" data-section="13 · 萦绕在心头的思绪"><h2>13 · 萦绕在心头的思绪</h2><div class="cards">
@@ -545,14 +558,6 @@ footer{color:var(--muted);font-size:.82rem;padding:28px 0 0}
           <p class="meaning">没有什么地方比……更能清楚地体现这一点。强调某个例子最能证明前面的论点。</p>
           <p class="use"><strong>快速定位：</strong>最能体现</p>
           <div class="examples"><div class="example"><div class="en">Nowhere is that clearer than in programming.</div><div class="zh">没有什么地方比编程更能清楚地体现这一点。</div></div></div>
-        </article></div></section>
-
-<section class="section" data-section="15 · 强调与加强：under the sun"><h2>15 · 强调与加强：under the sun</h2><div class="cards">
-        <article class="card" data-search="under the sun 常见于 everything / anything / nothing + under the sun，意思是“世上所有……”，带有无所不包的修辞感。 口语 / 夸张 世上所有 we talked about everything under the sun. 我们什么话题都聊了。 you can find almost anything under the sun online. 你几乎可以在网上找到任何东西。">
-          <div class="card-top"><h3>under the sun</h3><span class="tag">口语 / 夸张</span></div>
-          <p class="meaning">常见于 everything / anything / nothing + under the sun，意思是“世上所有……”，带有无所不包的修辞感。</p>
-          <p class="use"><strong>快速定位：</strong>世上所有/无所不包</p>
-          <div class="examples"><div class="example"><div class="en">We talked about everything under the sun.</div><div class="zh">我们什么话题都聊了。</div></div><div class="example"><div class="en">You can find almost anything under the sun online.</div><div class="zh">你几乎可以在网上找到任何东西。</div></div></div>
         </article></div></section>
 
 <footer>整理原则：按“想表达什么”查找；相近表达放在一起；标签仅表示常见语气倾向，不代表只能在某种场景使用。可用浏览器打印功能另存为 PDF。</footer>
